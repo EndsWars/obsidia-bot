@@ -1,0 +1,21 @@
+{
+  "name": "obsidia-bot",
+  "version": "1.0.0",
+  "description": "OBSIDIA Discord Bot - Community Management",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "obsidia"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.0.3"
+  }
+}
