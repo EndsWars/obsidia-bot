@@ -1,4 +1,4 @@
-=import os
+import os
 from dotenv import load_dotenv
 
 # Load .env file
@@ -54,3 +54,4 @@ def verify_credentials():
     
     print("✅ All credentials loaded successfully")
     return True
+```
