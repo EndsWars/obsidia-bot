@@ -39,24 +39,10 @@ def verify_credentials():
             missing.append(name)
     
     if missing:
-        print("❌ MISSING CREDENTIALS:")
+        print("MISSING CREDENTIALS:")
         for name in missing:
             print(f"   - {name}")
         return False
     
-    print("✅ All credentials loaded successfully")
+    print("All credentials loaded successfully")
     return True
-```
-
----
-
-## ✅ IN VS CODE
-
-1. Delete entire config.py
-2. Paste the code above
-3. Save (Ctrl+S)
-4. Push:
-```
-git add config.py
-git commit -m "Fix config.py"
-git push -u origin main
