@@ -145,14 +145,3 @@ class Obsidia(commands.Bot):
 
 # Create bot instance
 bot = Obsidia()
-```
-
----
-
-## ✅ NOW RESTART BOT
-
-**In terminal:**
-
-Ctrl+C to stop
-```
-python main.py
