@@ -1,4 +1,4 @@
-import os
+=import os
 from dotenv import load_dotenv
 
 # Load .env file
@@ -12,7 +12,7 @@ GUILD_ID = int(os.getenv("GUILD_ID"))
 
 # Claude
 CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY")
-CLAUDE_MODEL = os.getenv("CLAUDE_MODEL", "claude-3-5-sonnet-20241022")
+CLAUDE_MODEL = os.getenv("CLAUDE_MODEL", "claude-opus-4-1")
 
 # Database
 MYSQL_HOST = os.getenv("MYSQL_HOST")
